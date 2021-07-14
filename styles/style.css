@@ -1,3 +1,55 @@
+
+/* Heading section */
+.header-bg{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 870px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 40.42px;
+    height: 51px;
+}
+.icon h2{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-left: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-items ul{
+   display: flex;
+}
+.menu-items ul li {
+    list-style-type: none;
+}
+.menu-items ul li:hover a{
+    text-decoration: underline;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 18px;
+}
+.main-img img{
+    margin-left: 20px;
+}
+
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 
@@ -103,7 +155,7 @@ height: 104px;
     color: #FFC014;
 }
 .fa-star.empty{
-    color: #AEAEAE;
+    color: black;
 }
 
 /* Media Queries */
